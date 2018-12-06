@@ -1,0 +1,13 @@
+package com.yodo1.tew;
+
+option java_outer_classname = "Model";
+
+message User {
+    required string id = 1;
+    required string name = 2;
+}
+
+message Product {
+    required string id = 1;
+    required string name = 2;
+}
